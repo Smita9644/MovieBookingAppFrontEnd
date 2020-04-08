@@ -1,0 +1,29 @@
+<!-- <table class="table table-bordered table-hover">
+    <tr>
+        <th style="color:cyan">name</th>
+      <td style="color:deeppink"> {{name}}</td>
+    </tr>
+    <tr>
+        <th style="color:cyan">role</th>
+        <img class="movieImage" style="height: 300px;width: 300px;" src="data:image/png;base64,{{movieImage}}"/> 
+    </tr>
+    <tr style="border:black">
+    <td><button class="btn btn-success" (click)="update()">Update</button></td>
+  </tr>
+ 
+  </table> -->
+  <section class="book" >
+    <span class="product-title">{{name}}</span>
+    <span class="Language">{{Language}}</span>
+    <span class="category">{{category}}</span>
+    <span class="format">{{format}}</span>
+    <span class="Type" style="font-size: small;">Select the type of seat you want</span>
+    <span class="seat-type">
+      <input type="checkbox" ng-checked="all">Silver(Rs.150)<br>
+      <input type="checkbox" ng-checked="all">Gold(Rs.200)<br>
+      <input type="checkbox" ng-checked="all">Dimmond(Rs.250)<br>
+      <button style="size: 10px;" name="Book" (click)="onclick(id)" class="btn btn-success">Continue</button>
+    </span>
+</section>
+
+

@@ -1,0 +1,47 @@
+  
+
+<div id="grid" >
+    <div id="areaA" class="col-md-3">
+      <section  class="category_List">
+        <div class="form-group">
+        <label for="" style="font-size: x-large;">category</label>
+        <select class="form-control"[(ngModel)]="category" (change)="modol()">
+          <option [value]="category" *ngFor="let category of categoryList" style="font-size: medium;">{{category}}</option>
+        </select>
+        </div> 
+      </section>
+      <section  class="category_List">
+        <div class="form-group">
+        <label for="" style="font-size: x-large;">language</label>
+        <select class="form-control"[(ngModel)]="language" (change)="modol()">
+          <option [value]="language" *ngFor="let language of languageList" style="font-size: medium;">{{language}}</option>
+        </select>
+        </div> 
+      </section>
+      <section  class="category_List">
+        <div class="form-group">
+        <label for="" style="font-size: x-large;">Format</label>
+        <select class="form-control"[(ngModel)]="format" (change)="modol()">
+          <option [value]="format" *ngFor="let format of formatList" style="font-size: medium;">{{format}}</option>
+        </select>
+        </div> 
+      </section>
+    </div>
+      <div id="areaB" class="col-md-12">
+      <section class="secondpart">
+         <section class="border" class="product-desc-container" *ngFor="let movie of Movielist">
+            <section class="product-details">
+              
+             <span class="product-title" style="font-size:larger">{{movie.name}}</span>
+              
+             <span class="product-category" style="font-size: medium">{{movie.category}}</span>
+
+              <span class="product-star" style="font-size: medium">*****</span>
+              <span>
+                <button name="Book" (click)="movieDetails(movie.movie_id)" class="btn btn-success">Book</button>
+             </span>
+            </section>
+         </section>
+      </section>
+    </div>
+  </div>

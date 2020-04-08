@@ -1,0 +1,83 @@
+.All-screen{
+    padding: 3em;
+    /* border: 1px solid lightgray; */
+    margin-bottom: 1em;
+}
+.desc-container{
+    padding: 3em;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+}
+
+.Screen {
+    
+    font-weight: 300;
+    /* margin-left: 300px; */
+    margin-right: 5px;
+    font-size: small;
+}
+ 
+.Screen::before {
+    content: "Screen: ";
+    font-weight: bold;
+    font-size: small;
+}
+
+.Movie-name {
+    
+    font-weight: 300;
+    /* margin-left: 300px; */
+    margin-right: 5px;
+    font-size: small;
+}
+ 
+.Movie-name::before {
+    content: "Name: ";
+    font-weight: bold;
+    font-size: small;
+}
+.Movie-LeadActor {
+    
+    font-weight: 300;
+    /* margin-left: 300px; */
+    margin-right: 5px;
+    font-size: small;
+}
+ 
+.Movie-LeadActor::before {
+    content: "Lead Actor: ";
+    font-weight: bold;
+    font-size: small;
+}
+.dateOfShow {
+    
+    font-weight: 300;
+    /* margin-left: 300px; */
+    margin-right: 5px;
+    font-size: small;
+}
+ 
+.dateOfShow::before {
+    content: "Date of show: ";
+    font-weight: bold;
+    font-size: small;
+}
+
+.timeOfShow {
+    
+    font-weight: 300;
+    /* margin-left: 300px; */
+    margin-right: 5px;
+    font-size: small;
+    padding-right: 50px;
+}
+ 
+.timeOfShow::before {
+    content: "Time of show: ";
+    font-weight: bold;
+    font-size: small;
+}
+
+.book{
+    scroll-margin-block-end: inherit;
+}

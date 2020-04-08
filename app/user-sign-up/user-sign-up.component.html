@@ -1,0 +1,23 @@
+<div class="col-md-3" width=5000px></div>
+<div class="col-md-3" >
+    <h2 style="color: deeppink;font:italic;">Register</h2>
+    <div class="form-group">
+        <label for=""style="color:black">name</label>
+        <input [(ngModel)]="name" name="email"  type="text" class="form-control">
+      </div>
+  <div class="form-group">
+    <label for=""style="color:black">email</label>
+    <input [(ngModel)]="email" name="email"  type="email" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for=""style="color:black">password</label>
+    <input [(ngModel)]="password" name="branch"  type="password" class="form-control">
+  </div>
+  <div class="form-group">
+    <button name="login" (click)="onSignUp()" class="btn btn-success">Sign up</button>
+    <button name="cancel" (click)="onCancel()" class="btn btn-danger" style="margin-left: 10px">Cancel</button>
+  </div>
+  
+</div>
+<div class="col-md-4"></div>
+

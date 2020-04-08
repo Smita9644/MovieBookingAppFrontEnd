@@ -1,0 +1,13 @@
+<section class="All-screen">
+    <section class="desc-container" *ngFor="let show of AllShows">
+     <span class="Screen">{{show.screen_id}}</span>
+     <span class="Movie-name">{{show.movie.name}}</span>
+     <!-- <span class="Movie-LeadActor">{{show.movie.leadActor}}</span> -->
+     <span class="dateOfShow">{{show.dateOfShow}}</span>
+     <span class="timeOfShow">{{show.timeOfShow}}</span>
+     <span class="book">
+     <button style="size: 10px;" name="Book" (click)="onclick(show.screen_id)" class="btn btn-success">Continue</button>
+    </span>
+    </section>
+</section>
+

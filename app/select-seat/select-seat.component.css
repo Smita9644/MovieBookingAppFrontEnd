@@ -1,0 +1,21 @@
+.product-title{
+    /* display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+    margin: 10px;  */
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+   width: 200px;
+   height: 200px;
+   text-align: left;
+   position: relative;
+   vertical-align: top;
+   overflow: hidden;
+   display: inline-block; 
+   border: 1mm;
+   scroll-padding-top: 50px;
+  }
+  .book{
+    border: 1px solid lightgray;
+  }

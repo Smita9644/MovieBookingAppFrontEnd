@@ -1,0 +1,140 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    color:black;
+    padding-left:40px;
+}
+
+a{
+    padding-left: 40px;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 300px ;
+}
+.itemactive{
+    padding: 30px;
+}
+
+
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #585656;
+}
+
+.nav>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: .33;
+}
+
+.site-header {
+    justify-content: flex-start;
+}
+
+.login-header {
+    justify-content: flex-end;
+}
+.login-header>a {
+    padding-left: 25px;
+}
+
+.login-header>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar {
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+    background-color: white;
+}
+
+.search-bar>input {
+    width: 440px;
+    border: none;
+    outline: none;
+}
+a{
+    color: white;
+}
+ .cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color:#272323;
+    
+} 
+
+/* .start{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+ .start>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: .33;
+} 
+
+ .end{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+} */
+ .end>span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: .33;
+}  
+
+
+.bottom-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #949894;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.bottom-navigation>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: .33;
+}
+.bottom-navigation>span>i{
+    background-color: cornsilk;
+}
+
+span{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.hidden-xs{
+    height: 350px;
+    width: 200px;
+}

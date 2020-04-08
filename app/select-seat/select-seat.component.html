@@ -1,0 +1,21 @@
+<section class=seats-booking>
+    
+    <section class="book" >
+        <div class="from-group">
+          <span class="product-title" *ngFor="let seat of SeatStatus">
+            <div *ngIf="seat.status===false; then thenBlock else elseBlock"></div>
+            <ng-template #thenBlock>
+              <!-- <input type="checkbox" [value]="seat.seat_id" name=seat.seat_id/> -->
+              <input type="checkbox" value="{{seat.seat_id}}" (change)="SelectedSeat($event)">{{seat.seat_id}}
+            </ng-template>
+            <ng-template #elseBlock>
+              <input type="checkbox" disabled>{{seat.seat_id}}<br>
+            </ng-template>
+      </span>
+      <span>
+        <button name="book" (click)="onBooking()" class="btn btn-success">Book</button>
+      </span>
+      
+    </div>
+    </section>
+    </section>
